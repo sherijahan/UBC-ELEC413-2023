@@ -148,7 +148,7 @@ class Library_lukasc(pya.Library):
     self.register(library)
 
 
-def design_lukasc_6(cell, cell_y, inst_wg1, inst_wg2, inst_wg3, waveguide_type):
+def design_lukasc_8(cell, cell_y, inst_wg1, inst_wg2, inst_wg3, waveguide_type):
 
     # Load the custom library (only the first time)
     if not(pya.Library().library_by_name('Library_lukasc','SiEPICfab_EBeam_ZEP')):
